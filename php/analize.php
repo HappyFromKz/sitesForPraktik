@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>analize</title>
-    <link rel="stylesheet" href="/siteforpraktik/maincss.css">
+    <link rel="stylesheet" href="./sitesFor">
 </head>
 <body>
 <div class="conteiner">
@@ -61,5 +61,7 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
 <script src="../js/analizejs.js"></script>
+<canvas id="myChart" width="600" height="100"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 </html>
