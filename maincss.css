@@ -179,11 +179,10 @@ input::placeholder, input[type='button']{
     margin-top: 30px;
 }
 .conteiner-tablo{
-    display: flex;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
     padding: 0 40px;
-}
-.columns{
-    margin: 0 50px;
 }
 #videopleer{
     width: 480px;
@@ -225,7 +224,6 @@ input::placeholder, input[type='button']{
     width: 440px;
     outline: none;
     font-size: 14px;
-    margin-top: 100px;
 }
 .inputforanaliz{
     font-size: 18px;
@@ -233,3 +231,16 @@ input::placeholder, input[type='button']{
     letter-spacing: 2px;
 }
 
+.input-button{
+    justify-content: center;
+    width: 500px;
+    height: 260px;
+    margin: auto;
+}
+
+.canvass{
+    display: inline;
+    justify-content: center;
+    width: 1400px;
+    height: 900px;
+}
